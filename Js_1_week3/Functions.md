@@ -128,7 +128,7 @@ let return_val = f(arg_1, arg_2, arg_3);
 
 console.assert(return_val === "yxz", "8: return_val === " + return_val);
 
-Turtle Shuffle
+###Turtle Shuffle
 
 Exercises
 1
@@ -243,6 +243,7 @@ function turtle(_1, _2, _3, _4, _5) {
 const return_val = turtle("","t","r","l","");
 console.assert(return_val === 'turtle', "9: return_val === " + return_val);
 
+###CallStack
 Sentences
 
 warmup
