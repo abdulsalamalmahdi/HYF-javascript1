@@ -337,77 +337,80 @@ console.assert(return_val === 'space capes', "3: return_val === " + return_val);
 
 4
 
+function sentence(_1, _2, _3, _4, _5) { 
 
+  function space(_v, _w, _x, _y, _z) {
+    return _v + _w + _x + _y + _z;
+  }
+  var word_1 = space(_3, _4, _1, _5, _2);
+
+  function capes(_v, _w, _x, _y, _z) {
+    return _v + _w + _x + _y + _z;
+  }
+  var word_2 = capes(_5,_1,_4,_2,_3);
+
+  var result = word_1 + " " + word_2;
+  return result;
+}
+const return_val = sentence("a","e","s","p","c");
+console.assert(return_val === 'space capes', "4: return_val === " + return_val);
 
 
 5
 
-on pytut
+function sentence(_1, _2, _3, _4, _5) { 
 
-{ // 5 -> cruel ulcer
-  function sentence(_1, _2, _3, _4, _5) { 
-
-    function cruel(_v, _w, _x, _y, _z) {
-      return _v + _w + _x + _y + _z;
-    }
-    var word_1 = cruel(_3, _1, _4, _5, _2);
-
-    function ulcer(_v, _w, _x, _y, _z) {
-      return _v + _w + _x + _y + _z;
-    }
-    var word_2 = ulcer(/* fill this in */);
-
-    var result = word_1 + " " + word_2;
-    return result;
+  function cruel(_v, _w, _x, _y, _z) {
+    return _v + _w + _x + _y + _z;
   }
-  const return_val = sentence(/* fill this in */);
-  console.assert(return_val === 'cruel ulcer', "5: return_val === " + return_val);
-};
+  var word_1 = cruel(_3, _1, _4, _5, _2);
+
+  function ulcer(_v, _w, _x, _y, _z) {
+    return _v + _w + _x + _y + _z;
+  }
+  var word_2 = ulcer(_4,_2,_3,_5,_1);
+
+  var result = word_1 + " " + word_2;
+  return result;
+}
+const return_val = sentence("r","l","c","u","e");
+console.assert(return_val === 'cruel ulcer', "5: return_val === " + return_val);
 
 6
 
-on pytut
+function sentence(_1, _2, _3, _4, _5) { 
 
-{ // 6 -> cruel ulcer
-  function sentence(_1, _2, _3, _4, _5) { 
-
-    function cruel(_v, _w, _x, _y, _z) {
-      return _v + _w + _x + _y + _z;
-    }
-    var word_1 = cruel(/* fill this in */);
-
-    function ulcer(_v, _w, _x, _y, _z) {
-      return _v + _w + _x + _y + _z;
-    }
-    var word_2 = ulcer(/* fill this in */);
-
-    var result = word_1 + " " + word_2;
-    return result;
+  function cruel(_v, _w, _x, _y, _z) {
+    return _v + _w + _x + _y + _z;
   }
-  const return_val = sentence("e", "l", "u", "c", "r");
-  console.assert(return_val === 'cruel ulcer', "6: return_val === " + return_val);
-};
+  var word_1 = cruel(_4,_5,_3,_1,_2)
+  function ulcer(_v, _w, _x, _y, _z) {
+    return _v + _w + _x + _y + _z;
+  }
+  var word_2 = ulcer(_3,_2,_4,_1,_5);
+
+  var result = word_1 + " " + word_2;
+  return result;
+}
+const return_val = sentence("e", "l", "u", "c", "r");
+console.assert(return_val === 'cruel ulcer', "6: return_val === " + return_val);
 
 7
 
-on pytut
+function sentence(_1, _2, _3, _4, _5) { 
 
-{ // 7 -> cruel ulcer
-  function sentence(_1, _2, _3, _4, _5) { 
-
-    function cruel(_v, _w, _x, _y, _z) {
-      return _x + _z + _w + _v + _y;
-    }
-    var word_1 = cruel(/* fill this in */);
-
-    function ulcer(_v, _w, _x, _y, _z) {
-      return _z + _w + _y + _x + _v;
-    }
-    var word_2 = ulcer(/* fill this in */);
-
-    var result = word_1 + " " + word_2;
-    return result;
+  function cruel(_v, _w, _x, _y, _z) {
+    return _x + _z + _w + _v + _y;
   }
-  const return_val = sentence("e", "l", "u", "c", "r");
-  console.assert(return_val === 'cruel ulcer', "7: return_val === " + return_val);
-};
+  var word_1 = cruel(_1,_3,_4,_2,_5);
+
+  function ulcer(_v, _w, _x, _y, _z) {
+    return _z + _w + _y + _x + _v;
+  }
+  var word_2 = ulcer(_5,_2,_1,_4,_3);
+
+  var result = word_1 + " " + word_2;
+  return result;
+}
+const return_val = sentence("e", "l", "u", "c", "r");
+console.assert(return_val === 'cruel ulcer', "7: return_val === " + return_val);
